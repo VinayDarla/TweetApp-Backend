@@ -7,7 +7,7 @@ int screenSize;
 int price;
 String color;
 String displayType;
-void insert(String brand,String model,String color,String displayType,int screenSize,int price)
+TV(String brand,String model,String color,String displayType,int screenSize,int price)
 {
 	this.brand = brand;
 	this.model = model;
@@ -18,9 +18,7 @@ void insert(String brand,String model,String color,String displayType,int screen
 }
 public static void main(String[] args)
 {
-	TV lg = new TV();
-	
-	lg.insert("LG","OLED 55","Black","4K HDR",55,100000);
+	TV lg = new TV("LG","OLED 55","Black","4K HDR",55,100000);
 	System.out.println(lg.brand+" "+lg.model+" "+lg.price);
 }
 }

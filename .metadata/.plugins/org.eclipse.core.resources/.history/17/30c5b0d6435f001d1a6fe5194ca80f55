@@ -1,0 +1,15 @@
+package com.learn.oop;
+
+public class Employee {
+int baseSalary = 50000;
+}
+
+class Dev extends Employee{
+	int bonus = 20000;
+	int total = bonus + baseSalary;
+	public static void main(String[] args)
+	{
+		Dev emp = new Dev();
+		System.out.println("Total salary is"+ emp.total);
+	}
+}
