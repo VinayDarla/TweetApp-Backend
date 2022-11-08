@@ -10,11 +10,6 @@ void totalSalary(int bS, int bonus) {
 void totalSalary(int bS, int bonus,int incentive) {
 	System.out.println(bS+bonus+incentive);
 }
-
-void Working()
-{
-	System.out.println("Employee is working");
-}
 }
 
 //class Dev extends Employee{

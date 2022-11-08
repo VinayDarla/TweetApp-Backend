@@ -1,0 +1,12 @@
+package com.learn.oop;
+
+public class HR extends Employee {
+int bonus = 28493;
+public static void main(String[] args)
+{
+	HR Vinay = new HR();
+	Vinay.totalSalary(Vinay.baseSalary,Vinay.bonus);
+	
+	
+}
+}

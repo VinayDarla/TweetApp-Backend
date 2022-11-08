@@ -2,18 +2,8 @@ package com.learn.oop;
 
 class Employee {
 int baseSalary = 50000;
-//method overloading
-void totalSalary(int bS, int bonus) {
-	System.out.println(bS+bonus);
-}
-
-void totalSalary(int bS, int bonus,int incentive) {
-	System.out.println(bS+bonus+incentive);
-}
-
-void Working()
-{
-	System.out.println("Employee is working");
+int totalSalary(int bS, int bonus) {
+	return bS+bonus;
 }
 }
 
