@@ -276,3 +276,69 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 16:53:32.684
 !MESSAGE executing callback sts4.classpath.ZBfTvdLg SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:24:19.160
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZBfTvdLg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:24:19.161
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ZBfTvdLg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:24:19.161
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:24:19.162
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZBfTvdLg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:25:18.437
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:25:18.438
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3f1eb1bc[org.springframework.tooling.boot.ls:1.13.0.201911200938(id=632)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:25:18.438
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:25:20.625
+!MESSAGE Boot LS startup time from start to initialized: 2185ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:25:20.659
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MYytFuBDisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:25:20.660
+!MESSAGE subscribing to classpath changes: sts4.classpath.MYytFuBD isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:25:20.660
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:25:20.660
+!MESSAGE subsribers = {sts4.classpath.MYytFuBD=Send Classpath Notifications(2209)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:25:20.661
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:25:20.661
+!MESSAGE project Java-oops ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:25:20.661
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:25:20.662
+!MESSAGE Preparing classpath changed notification Java-oops
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:25:20.662
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MYytFuBD => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:25:20.662
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:25:20.663
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:25:20.663
+!MESSAGE buffering callback sts4.classpath.MYytFuBD Java-oops false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:25:20.664
+!MESSAGE executing callback sts4.classpath.MYytFuBD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 17:25:20.703
+!MESSAGE executing callback sts4.classpath.MYytFuBD SUCCESS [done]
