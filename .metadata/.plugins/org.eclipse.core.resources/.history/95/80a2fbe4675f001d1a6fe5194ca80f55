@@ -1,0 +1,16 @@
+package com.learn.oop.Collections;
+
+import java.util.ArrayList;
+
+public class ListDemo {
+
+public static void main(String[] args) {
+	ArrayList<String> students =new ArrayList<>();
+	students.add("John");
+	students.add("Hrithik");
+	students.add("Venky");
+	students.add("Jon Snow");
+	
+	
+}
+}
