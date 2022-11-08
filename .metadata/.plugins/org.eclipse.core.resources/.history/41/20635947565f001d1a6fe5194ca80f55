@@ -1,0 +1,6 @@
+package com.learn.abstraction.copy;
+
+public abstract class IPL {
+	abstract void play();
+
+}
