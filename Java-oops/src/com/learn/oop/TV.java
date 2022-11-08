@@ -1,0 +1,24 @@
+package com.learn.oop;
+
+public class TV {
+String brand;
+String model;
+int screenSize;
+int price;
+String color;
+String displayType;
+TV(String brand,String model,String color,String displayType,int screenSize,int price)
+{
+	this.brand = brand;
+	this.model = model;
+	this.color = color;
+	this.displayType = displayType;
+	this.screenSize = screenSize;
+	this.price = price;
+}
+public static void main(String[] args)
+{
+	TV lg = new TV("LG","OLED 55","Black","4K HDR",55,100000);
+	System.out.println(lg.brand+" "+lg.model+" "+lg.price);
+}
+}

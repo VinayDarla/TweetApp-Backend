@@ -1,0 +1,16 @@
+package com.learn.oop;
+
+public class TV {
+String brand;
+String model;
+int screenSize;
+int price;
+String color;
+String displayType;
+
+public static void main(String[] args)
+{
+	TV lg = new TV();
+	TV samsung = new TV();
+}
+}
