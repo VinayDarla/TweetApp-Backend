@@ -1,18 +1,17 @@
 package com.learn.oop.Collections;
 
 import java.util.Iterator;
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 
-public class SetDemo {
-
+public class LinkedHashSetDemo {
 	public static void main(String[] args) {
-		HashSet<String> st =new HashSet<>();
+		LinkedHashSet<String> st =new LinkedHashSet<>();
 		st.add("Jon Snow");
 		st.add("Suresh");
 		st.add("Vinay");
 		st.add("Vinay");
 		
-		st.remove("Suresh");
+		//st.remove("Suresh");
 		
 		Iterator<String> itr = st.iterator();
 		while(itr.hasNext()) {
