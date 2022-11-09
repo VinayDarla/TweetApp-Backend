@@ -44,10 +44,20 @@ public static void main(String[] args) throws IOException {
 		else if(choice==2)
 		{
 			//delete 
+			System.out.println("enter student id to delete");
+			int studentID = Integer.parseInt(br.readLine());
+			boolean status = StudentMeth.deleteStudent(studentID);
+			if(status)
+				System.out.println("Student deleted successfully");
+			else
+				System.out.println("Error ocurred");
+			
+			
 		}
 		else if(choice==3)
 		{
-			//update
+			//display
+			boolean status = StudentMeth.getAllStudents();
 		}
 		else if(choice==4)
 		{
