@@ -87,4 +87,29 @@ public class StudentMeth {
 		
 	return status;	
 	}
+	
+	public static boolean updateStudent(int studentID) 
+	{
+		boolean status = false;
+		
+		try {
+			Connection con = SqlConnection.createConnection();
+			String query1 = "update from student_data where sid=?";
+			
+			PreparedStatement stmt = con.prepareStatement(query1);
+			
+			//setting values
+			stmt.setInt(1,studentID );
+			
+			
+			//executing query
+			stmt.executeUpdate();
+			status =true;
+		} 
+		catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	return status;	
+	}
 }
