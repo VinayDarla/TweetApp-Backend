@@ -976,3 +976,52 @@ Caused by: java.net.SocketException: Connection reset
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 15:59:10.528
 !MESSAGE executing callback sts4.classpath.Yghkxrif SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-10 13:35:56.268
+!MESSAGE Preparing classpath changed notification JUnitDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-10 13:35:56.269
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-10 13:35:56.270
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-10 13:35:56.270
+!MESSAGE buffering callback sts4.classpath.Yghkxrif JUnitDemo false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-10 13:35:56.270
+!MESSAGE executing callback sts4.classpath.Yghkxrif 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-10 13:35:56.275
+!MESSAGE executing callback sts4.classpath.Yghkxrif SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-10 13:36:30.405
+!MESSAGE Preparing classpath changed notification JUnitDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-10 13:36:30.406
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-10 13:36:30.407
+!MESSAGE classpath=16 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-10 13:36:30.408
+!MESSAGE buffering callback sts4.classpath.Yghkxrif JUnitDemo false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-10 13:36:30.408
+!MESSAGE executing callback sts4.classpath.Yghkxrif 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-10 13:36:30.413
+!MESSAGE executing callback sts4.classpath.Yghkxrif SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-11-10 13:38:38.744
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
