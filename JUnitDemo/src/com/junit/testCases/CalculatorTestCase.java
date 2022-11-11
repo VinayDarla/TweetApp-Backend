@@ -15,7 +15,7 @@ public class CalculatorTestCase {
 	public void testAddMethod() {
 		Calculator cal = new Calculator();
 		int sum = cal.add(20, 45);
-		assertEquals(65, sum);
+		assertEquals(-25, sum);
 		System.out.println("Total is"+sum);
 		
 	}
